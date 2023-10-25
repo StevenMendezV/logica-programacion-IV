@@ -1,0 +1,14 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+ol{
+    padding-left: 20px;
+    margin-bottom: 25px;
+}
+
+#resultado{
+    word-wrap: break-word;
+}

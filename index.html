@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Fibonacci</title>
+</head>
+<body>
+    <h1>Ejercicio Fibonacci</h1>
+    <h3>Restricciones: </h3>
+    <ol>
+        <li>Introducir números que no sean 0 ni 1</li>
+        <li>El número límite no puede exceder el número 100</li>
+    </ol>
+    <label for="">Introduzca su número límite: </label>
+    <input id="input-numero" type="text">
+    <button onclick="fibonacci()">Resultado</button>
+    <p>Estado de solicitud: <strong id="estado-solicitud" style="color: rgb(255, 153, 0);">En espera: </strong><span id="texto-solicitud" style="color: rgb(255, 153, 0);"> Esperando el input</span></p>
+    <p class="apartado-resultado">La sucesión Fibonacci para el número ingresado es: <span id="resultado"></span></p>
+
+    <script src="script.js"></script>
+</body>
+</html>
